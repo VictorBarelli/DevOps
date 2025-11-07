@@ -3,7 +3,7 @@ terraform {
         bucket = "terraform-state-victorb"
         key    = "site/terraform.tfstate"
         region = "us-east-2"
-        encypy = ture 
+        encrypt = true
         use_lockfile = true
     }
 }
